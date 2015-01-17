@@ -243,7 +243,7 @@ function startGame() {
 addCircles();
 var soundID = "Lollipop";
 function loadSound() {
-    createjs.Sound.registerSound("Lollipop.mp3", soundID);
+    createjs.Sound.registerSound("./Lollipop.mp3", soundID);
 }
 function playSound () {
     createjs.Sound.play(soundID);
